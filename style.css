@@ -1,0 +1,206 @@
+/* Define primary and secondary colors */
+:root {
+    --primary-color: #000000; 
+    --secondary-color: #0b749a; 
+
+/* Global styles */
+body {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; /* Bigger font size */
+    line-height: 1.6; /* Increased line height for better readability */
+}
+
+.navbar {
+    margin-bottom: 5vh;
+    background: linear-gradient(to right, #00008B, #01013B);
+    color: #fff;
+    text-align: center;
+}
+.weather-today {
+    margin-top: 2vh;
+}
+
+/* Left Rail - Enter city to get Weather */
+.col-md-3.card.card-search {
+    float: left;
+}
+
+/* Center Content Area */
+.col-md-9#weather-today {
+    float: right;
+}
+
+/* Today's Weather Card */
+.card.todayBlock {
+    margin-bottom: 2vh;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card.todayBlock .card-title {
+    color: var(--primary-color);
+    font-size: 1.5rem; /* Bigger title font size */
+}
+
+/* Forecast 5 Day Section */
+.container .row .col-sm-2 {
+    float: right;
+    width: 20%;
+}
+
+.card.card5day {
+    height: fit-content;
+    font-size: 1rem; /* Bigger font size */
+    margin-top: 0.2vh;
+    margin-left: 5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card.card5day h6,
+.card.card5day p {
+    color: var(--primary-color);
+    font-size: 1rem; /* Bigger font size */
+}
+
+/* Button Styles */
+.btn {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 25px;
+    font-size: 1rem; /* Bigger font size */
+    font-weight: bold;
+    width: fit-content;
+    margin: 1vh 0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #337cc9; /* Darker blue */
+}
+
+/* UV Index Colors */
+.severeLevel {
+    padding: 4px;
+    background-color: rgba(255, 0, 0, 0.5); /* Transparent red background */
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.moderateLevel {
+    padding: 4px;
+    background-color: rgba(255, 255, 0, 0.5); /* Transparent yellow background */
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.favorableLevel {
+    padding: 4px;
+    background-color: rgba(0, 128, 0, 0.5); /* Transparent green background */
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+}
+#atlantaBtn {
+    background-color: rgb(36, 111, 155);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+#chicagoBtn {
+    background-color: rgb(36, 111, 155);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+#sanAntonioBtn {
+    background-color: rgb(36, 111, 155);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+#sanjoseBtn {
+    background-color: rgb(36, 111, 155);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+#newyorkBtn {
+    background-color: rgb(36, 111, 155);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+#austinBtn {
+    background-color: rgb(36, 111, 155);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+#houstonBtn {
+    background-color: rgb(36, 111, 155);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+#bostonBtn {
+    background-color: rgb(36, 111, 155);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+#austinBtn {
+    background-color: rgb(36, 111, 155);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin: 10px 0;
+}
